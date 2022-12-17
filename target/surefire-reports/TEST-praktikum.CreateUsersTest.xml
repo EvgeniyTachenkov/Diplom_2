@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="praktikum.CreateUsersTest" time="29.998" tests="5" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2\target\test-classes;C:\Users\Евгений\Desktop\Diplom\Diplom_2\target\classes;C:\Users\Евгений\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Евгений\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Евгений\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Евгений\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Евгений\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Евгений\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Евгений\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Евгений\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Евгений\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Евгений\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\Евгений\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Евгений\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Евгений\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\Евгений\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin"/>
+    <property name="sun.java.command" value="C:\Users\B7E3~1\AppData\Local\Temp\surefire1540678540194239925\surefirebooter3682735387642487792.jar C:\Users\Евгений\AppData\Local\Temp\surefire1540678540194239925 2022-12-17T12-43-53_784-jvmRun1 surefire17186678549514316615tmp surefire_04254170187374886568tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2\target\test-classes;C:\Users\Евгений\Desktop\Diplom\Diplom_2\target\classes;C:\Users\Евгений\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Евгений\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Евгений\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Евгений\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Евгений\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Евгений\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Евгений\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Евгений\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Евгений\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Евгений\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\Евгений\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Евгений\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Евгений\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\Евгений\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2\target/allure-results"/>
+    <property name="user.home" value="C:\Users\Евгений"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\B7E3~1\AppData\Local\Temp\surefire1540678540194239925\surefirebooter3682735387642487792.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15+9-LTS"/>
+    <property name="user.name" value="Евгений"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.15.9.1"/>
+    <property name="localRepository" value="C:\Users\Евгений\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\B7E3~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.3"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin;C:\Program Files\Amazon Corretto\jdk11.0.10_9\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\nodejs\;C:\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Евгений\AppData\Local\Microsoft\WindowsApps;C:\Users\Евгений\AppData\Roaming\npm;C:\WebDriver\bin;C:\Users\Евгений\Downloads\allure-commandline-2.20.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.15+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="createWithoutEmailTest" classname="praktikum.CreateUsersTest" time="27.954">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;403&gt; but was &lt;520&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <520>.
+
+	at praktikum.CreateUsersTest.createWithoutEmailTest(CreateUsersTest.java:62)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "",
+    "password": "TY67C13Iye",
+    "name": "0pWXWp2EcX"
+}
+HTTP/1.1 520 
+Date: Sat, 17 Dec 2022 09:44:23 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: cf_use_ob=0; path=/; expires=Sat, 17-Dec-22 09:44:53 GMT
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+CF-RAY: 77aeb7ac7889ac10-KLD
+Server: cloudflare
+
+<html class="no-js" lang="en-US">
+  <head>
+    <title>stellarburgers.nomoreparties.site | 520: Web server is returning an unknown error</title>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link id="cf_styles-css" rel="stylesheet" href="/cdn-cgi/styles/main.css"/>
+  </head>
+  <body>
+    <div id="cf-wrapper">
+      <div class="p-0" id="cf-error-details">
+        <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">
+          <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">
+            <span class="inline-block">Web server is returning an unknown error</span>
+            <span class="code-label">Error code 520</span>
+          </h1>
+          <div>
+
+               Visit             <a shape="rect" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&amp;utm_campaign=stellarburgers.nomoreparties.site" target="_blank" rel="noopener noreferrer">cloudflare.com</a>
+ for more information.
+                      </div>
+          <div class="mt-3">2022-12-17 09:44:23 UTC</div>
+        </header>
+        <div class="my-8 bg-gradient-gray">
+          <div class="w-240 lg:w-full mx-auto">
+            <div class="clearfix md:px-8">
+              <div class="relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-browser-status">
+                <div class="relative mb-10 md:m-0">
+                  <span class="cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat"/>
+                  <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"/>
+                </div>
+                <span class="md:block w-full truncate">You</span>
+                <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    
+    Browser
+    
+  </h3>
+                <span class="leading-1.3 text-2xl text-green-success">Working</span>
+              </div>
+              <div class="relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-cloudflare-status">
+                <div class="relative mb-10 md:m-0">
+                  <a shape="rect" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&amp;utm_campaign=stellarburgers.nomoreparties.site" target="_blank" rel="noopener noreferrer">
+                    <span class="cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat"/>
+                    <span class="cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"/>
+                  </a>
+                </div>
+                <span class="md:block w-full truncate">Tver</span>
+                <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+                  <a shape="rect" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&amp;utm_campaign=stellarburgers.nomoreparties.site" target="_blank" rel="noopener noreferrer">
+    Cloudflare
+    </a>
+                </h3>
+                <span class="leading-1.3 text-2xl text-green-success">Working</span>
+              </div>
+              <div class="cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center" id="cf-host-status">
+                <div class="relative mb-10 md:m-0">
+                  <span class="cf-icon-server block md:hidden h-20 bg-center bg-no-repeat"/>
+                  <span class="cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4"/>
+                </div>
+                <span class="md:block w-full truncate">stellarburgers.nomoreparties.site</span>
+                <h3 class="md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3">
+    
+    Host
+    
+  </h3>
+                <span class="leading-1.3 text-2xl text-red-error">Error</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-240 lg:w-full mx-auto mb-8 lg:px-8">
+          <div class="clearfix">
+            <div class="w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed">
+              <h2 class="text-3xl font-normal leading-1.3 mb-4">What happened?</h2>
+              <p>There is an unknown connection issue between Cloudflare and the origin web server. As a result, the web page can not be displayed.</p>
+            </div>
+            <div class="w-1/2 md:w-full float-left leading-relaxed">
+              <h2 class="text-3xl font-normal leading-1.3 mb-4">What can I do?</h2>
+              <h3 class="text-15 font-semibold mb-2">If you are a visitor of this website:</h3>
+              <p class="mb-6">Please try again in a few minutes.</p>
+              <h3 class="text-15 font-semibold mb-2">If you are the owner of this website:</h3>
+              <p>
+                <span>There is an issue between Cloudflare's cache and your origin web server. Cloudflare monitors for these errors and automatically investigates the cause. To help support the investigation, you can pull the corresponding error log from your web server and submit it our support team.  Please include the Ray ID (which is at the bottom of this error page).</span>
+                <a shape="rect" rel="noopener noreferrer" href="https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520">Additional troubleshooting resources</a>
+.              </p>
+            </div>
+          </div>
+        </div>
+        <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
+          <p class="text-13">
+            <span class="cf-footer-item sm:block sm:mb-1">
+Cloudflare Ray ID:               <strong class="font-semibold">77aeb7ac7889ac10</strong>
+            </span>
+            <span class="cf-footer-separator sm:hidden">•</span>
+            <span class="cf-footer-item hidden sm:block sm:mb-1" id="cf-footer-item-ip">
+
+      Your IP:
+                    <button type="button" class="cf-footer-ip-reveal-btn" id="cf-footer-ip-reveal">Click to reveal</button>
+              <span class="hidden" id="cf-footer-ip">188.242.120.163</span>
+              <span class="cf-footer-separator sm:hidden">•</span>
+            </span>
+            <span class="cf-footer-item sm:block sm:mb-1">
+              <span>Performance &amp; security by</span>
+              <a shape="rect" id="brand_link" rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&amp;utm_campaign=stellarburgers.nomoreparties.site" target="_blank">Cloudflare</a>
+            </span>
+          </p>
+          <script>(function(){function d(){var b=a.getElementById("cf-footer-item-ip"),c=a.getElementById("cf-footer-ip-reveal");b&amp;&amp;"classList"in b&amp;&amp;(b.classList.remove("hidden"),c.addEventListener("click",function(){c.classList.add("hidden");a.getElementById("cf-footer-ip").classList.remove("hidden")}))}var a=document;document.addEventListener&amp;&amp;a.addEventListener("DOMContentLoaded",d)})();</script>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="createUsersTest" classname="praktikum.CreateUsersTest" time="1.277"/>
+  <testcase name="createWithoutPasswordTest" classname="praktikum.CreateUsersTest" time="0.16"/>
+  <testcase name="createDoubleUserTest" classname="praktikum.CreateUsersTest" time="0.353">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;403&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <429>.
+
+	at praktikum.CreateUsersTest.createDoubleUserTest(CreateUsersTest.java:54)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "KCqSV6IV0o@82QgFeMdoo.VYDtf9ZcxG",
+    "password": "u3Xi9LNncZ",
+    "name": "Xmn3CrYl08"
+}
+HTTP/1.1 200 OK
+Date: Sat, 17 Dec 2022 09:44:25 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOWQ4Zjc5YzE2MWRhMDAxYjc5ZWFmYSIsImlhdCI6MTY3MTI3MDI2NSwiZXhwIjoxNjcxMjcxNDY1fQ.qzNbGFu4gINT4d_z5W5Omj-RJoRbYNZfja3gCRofeIY
+ETag: W/"17d-unPDu6n/T0Aqcf8Lg1cJbcmDdyM"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SSqp64sIMWPtkakQOv6qaR8oX6iBFOF4aIjsW4iUZcmORc8MW5Suot2%2Fu8z7GshQOv%2BDjhWynTujp8Y428tyWCx%2FYsIYkFfm0WImlkiRzHu7rsp2qiAISRR12Yphuv%2FmCsoOeWXYTBbe6n%2Bt6iDO2PRJv80%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb853fd8fac08-KLD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "kcqsv6iv0o@82qgfemdoo.vydtf9zcxg",
+        "name": "Xmn3CrYl08"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOWQ4Zjc5YzE2MWRhMDAxYjc5ZWFmYSIsImlhdCI6MTY3MTI3MDI2NSwiZXhwIjoxNjcxMjcxNDY1fQ.qzNbGFu4gINT4d_z5W5Omj-RJoRbYNZfja3gCRofeIY",
+    "refreshToken": "3a6fdeecfbef74a6d0b973de8bbe45350e50e71b92fa2ad6f66539dd13aff64d2f22067f4d7eed1d"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "KCqSV6IV0o@82QgFeMdoo.VYDtf9ZcxG",
+    "password": "u3Xi9LNncZ",
+    "name": "Xmn3CrYl08"
+}
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 17 Dec 2022 09:44:25 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vz6Kbj%2F%2BTXavdzVnXFr2Bp0QoVioRgFaKS7lG%2FIcrY3PgCU3hkWGna0r9Ed8lEXvL%2BDbf%2B56liiYZ78eeKNoyWBwHlFQpN1udOtT7Jolh8LhtaAOSmJpkeT0XU%2B8ziV7ZoZsn1STorCrdSJ%2FqNvFZgcg%2Fjw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb8556b13ac0b-KLD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="createWithoutNameTest" classname="praktikum.CreateUsersTest" time="0.09"/>
+</testsuite>

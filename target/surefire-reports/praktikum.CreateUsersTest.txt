@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: praktikum.CreateUsersTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 29.998 s <<< FAILURE! - in praktikum.CreateUsersTest
+createWithoutEmailTest(praktikum.CreateUsersTest)  Time elapsed: 27.954 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <520>.
+
+	at praktikum.CreateUsersTest.createWithoutEmailTest(CreateUsersTest.java:62)
+
+createDoubleUserTest(praktikum.CreateUsersTest)  Time elapsed: 0.353 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> but was <429>.
+
+	at praktikum.CreateUsersTest.createDoubleUserTest(CreateUsersTest.java:54)
+
