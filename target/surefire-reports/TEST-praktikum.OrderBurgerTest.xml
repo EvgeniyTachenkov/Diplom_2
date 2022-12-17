@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="praktikum.OrderBurgerTest" time="66.594" tests="6" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2\target\test-classes;C:\Users\Евгений\Desktop\Diplom\Diplom_2\target\classes;C:\Users\Евгений\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Евгений\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Евгений\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Евгений\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Евгений\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Евгений\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Евгений\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Евгений\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Евгений\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Евгений\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\Евгений\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Евгений\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Евгений\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\Евгений\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin"/>
+    <property name="sun.java.command" value="C:\Users\B7E3~1\AppData\Local\Temp\surefire1540678540194239925\surefirebooter3682735387642487792.jar C:\Users\Евгений\AppData\Local\Temp\surefire1540678540194239925 2022-12-17T12-43-53_784-jvmRun1 surefire17186678549514316615tmp surefire_04254170187374886568tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2\target\test-classes;C:\Users\Евгений\Desktop\Diplom\Diplom_2\target\classes;C:\Users\Евгений\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Евгений\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Евгений\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Евгений\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Евгений\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Евгений\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Евгений\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Евгений\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Евгений\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Евгений\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\Евгений\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\Евгений\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\Евгений\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\Евгений\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Евгений\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-junit4\2.15.0\allure-junit4-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Евгений\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-rest-assured\2.15.0\allure-rest-assured-2.15.0.jar;C:\Users\Евгений\.m2\repository\io\qameta\allure\allure-attachments\2.15.0\allure-attachments-2.15.0.jar;C:\Users\Евгений\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="allure.results.directory" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2\target/allure-results"/>
+    <property name="user.home" value="C:\Users\Евгений"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\B7E3~1\AppData\Local\Temp\surefire1540678540194239925\surefirebooter3682735387642487792.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.15+9-LTS"/>
+    <property name="user.name" value="Евгений"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.15.9.1"/>
+    <property name="localRepository" value="C:\Users\Евгений\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\B7E3~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.1.3"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="C:\Users\Евгений\Desktop\Diplom\Diplom_2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Amazon Corretto\jdk11.0.15_9\bin;C:\Program Files\Amazon Corretto\jdk11.0.10_9\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\nodejs\;C:\apache-maven-3.8.6\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Евгений\AppData\Local\Microsoft\WindowsApps;C:\Users\Евгений\AppData\Roaming\npm;C:\WebDriver\bin;C:\Users\Евгений\Downloads\allure-commandline-2.20.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.15+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="orderBurgerAuthTest" classname="praktikum.OrderBurgerTest" time="0.166">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <429>.
+
+	at praktikum.OrderBurgerTest.orderBurgerAuthTest(OrderBurgerTest.java:40)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "3jgC3XbZbV@cZF69FvJ2A.s1lGp7eB8r",
+    "password": "BGStnILMm0",
+    "name": "Zr3y1JNoxO"
+}
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 17 Dec 2022 09:44:26 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=O%2BJ1GV7yr7Gnia4PdLBULA8P66Xsu5C%2Ba4SeXDZCYDHwZJhRlxDd0jFgC3tQdyLyXvAaR9op8L7hRJ5uWSVYaJ52EfyC6wumxVZ3BqC4aG9cZ6uUrWeigxdFO3mnE34TV0nrBM3Gzb6ElgZVH6V91qCKASA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb85c4f76ac05-KLD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "3jgC3XbZbV@cZF69FvJ2A.s1lGp7eB8r",
+    "password": "BGStnILMm0"
+}
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 17 Dec 2022 09:44:26 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P%2FMK%2FmpSEt9OJxxHQXkBtDFMVr9tGRzicf7lhjZbW6TsZ6%2F67w9fN5qdfwuWi%2F5owgNg0GNuNmicba7PSKOSj5TWcA5l%2BCRpPPuzEtxquLS4DID33IcZV2eT2y%2BgFsIpP25hGq8uP6O9cuxsoJ%2Bu64rM7ec%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb85cd827ac05-KLD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="orderBurgerNoAuthTest" classname="praktikum.OrderBurgerTest" time="0.308"/>
+  <testcase name="getOrderBurgerNoAuthTest" classname="praktikum.OrderBurgerTest" time="0.271"/>
+  <testcase name="orderBurgerInvalidHashTest" classname="praktikum.OrderBurgerTest" time="0.138">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> but was <429>.
+
+	at praktikum.OrderBurgerTest.orderBurgerInvalidHashTest(OrderBurgerTest.java:75)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "B4dsydfCXO@yBKMHt4m52.Na220wJLWo",
+    "password": "RhKJuy3BQ6",
+    "name": "L5ZEl4quLB"
+}
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 17 Dec 2022 09:44:27 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZWeT%2FZGBWM31yqFDEthIun9WmgKAQRK%2FMUKrgDB%2BUG6F4oXaNGaMm15iJfBLfr6MWlHZIE3HOSePJ6leS0vdK7Ezo2YRwaKgt2YEYUayQDuMVXC16thpoc61%2FNXbw3GhVYkMqmTQHe%2FbW2AwbnxAMgS71Qw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb860f8b6abff-KLD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "B4dsydfCXO@yBKMHt4m52.Na220wJLWo",
+    "password": "RhKJuy3BQ6"
+}
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 17 Dec 2022 09:44:27 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xcPHIwVUgKu3RHmBj4m1oIxolFPyq%2FighWHYl3T1Je0opP%2B57TQvyHnFezFgGfowU9jmtNYGLRXvTGuGourvMPX6N6VQxIkCurYzhy9RV2rT1AVNFStbYl45CbsNajN5bpQYkyIQxcU7xK5qBmGRMJf8x6c%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb8615a76ac0a-KLD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+]]></system-out>
+  </testcase>
+  <testcase name="getOrderBurgerTest" classname="praktikum.OrderBurgerTest" time="65.057"/>
+  <testcase name="orderBurgerNoIngredientsTest" classname="praktikum.OrderBurgerTest" time="0.653">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;400&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <429>.
+
+	at praktikum.OrderBurgerTest.orderBurgerNoIngredientsTest(OrderBurgerTest.java:67)
+]]></failure>
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "aJK16DDIGi@fn2XZb0bYG.TNd1WShv7r",
+    "password": "6FarVWFVkJ",
+    "name": "JUmi2aUUxX"
+}
+HTTP/1.1 200 OK
+Date: Sat, 17 Dec 2022 09:45:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOWQ4ZmJjYzE2MWRhMDAxYjc5ZWIwNyIsImlhdCI6MTY3MTI3MDMzMiwiZXhwIjoxNjcxMjcxNTMyfQ.XLwNot88VW_Ql3eV3QRcUiezeANSpwWr-qQThb0PCsM
+ETag: W/"17d-WmSy192rMDWCdyWjGrYJyogmw3I"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=X6b%2Fc7w7k91z4KztUYIZPs5%2BjFYuNnuAgAzUOEdoeZOF3E5hxKJeAFlUJ5ZO6%2F2XBp3a61ufkK6%2Boasas87UxTBj0IGKyWyncYLBmelYfivLojRI4RtqTf7hj0wjYZmy1%2FhAMLFJS%2Fr0JykG3ASrzLsjUzw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb9f869b5abff-KLD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "success": true,
+    "user": {
+        "email": "ajk16ddigi@fn2xzb0byg.tnd1wshv7r",
+        "name": "JUmi2aUUxX"
+    },
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOWQ4ZmJjYzE2MWRhMDAxYjc5ZWIwNyIsImlhdCI6MTY3MTI3MDMzMiwiZXhwIjoxNjcxMjcxNTMyfQ.XLwNot88VW_Ql3eV3QRcUiezeANSpwWr-qQThb0PCsM",
+    "refreshToken": "1397c5e69913112421fa09ecb5201d0cb1d84d60f64f85bfde32508cf0684dd7e851f5787483e604"
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "aJK16DDIGi@fn2XZb0bYG.TNd1WShv7r",
+    "password": "6FarVWFVkJ"
+}
+HTTP/1.1 200 OK
+Date: Sat, 17 Dec 2022 09:45:32 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"17d-az5qVakNT6JNSriB0Q+TU3PLy18"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=n%2BXS93IlalA2%2BmvHk4DmE9lfR%2BloMmf3ETZitTqlOe%2Bv4g0vYGVeAp1jSxi49Jdolk1OM2QTsjA7j33UjuiIYfJk0WWvzHOExBhF%2FzAqZKcGDyUoEc7%2BPwanMAJtM0nKgoFzYiZumGgPy04Wo%2BAyWMcwJe4%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb9f98b9eabff-KLD
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "success": true,
+    "accessToken": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOWQ4ZmJjYzE2MWRhMDAxYjc5ZWIwNyIsImlhdCI6MTY3MTI3MDMzMiwiZXhwIjoxNjcxMjcxNTMyfQ.XLwNot88VW_Ql3eV3QRcUiezeANSpwWr-qQThb0PCsM",
+    "refreshToken": "58034faab4af8a31d3431e235f3b7c80bf5ee7b1657952c769aff554409e2a2e80c5560423a6583e",
+    "user": {
+        "email": "ajk16ddigi@fn2xzb0byg.tnd1wshv7r",
+        "name": "JUmi2aUUxX"
+    }
+}
+Request method:	POST
+Request URI:	https://stellarburgers.nomoreparties.site/api/orders
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOWQ4ZmJjYzE2MWRhMDAxYjc5ZWIwNyIsImlhdCI6MTY3MTI3MDMzMiwiZXhwIjoxNjcxMjcxNTMyfQ.XLwNot88VW_Ql3eV3QRcUiezeANSpwWr-qQThb0PCsM
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 17 Dec 2022 09:45:32 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9mRLpsteB1boK2Zdkx7WS3f8XxqfWqMaseLzlEStihFw1KpOoMnbjqLuegoj1fI8C9t2sV38U05CQszc%2FYYAWA30g3Y6HFRz8SBoET13stTA2VfDelGzu4jQfBwjIIIXcpfRSkAF4DpqdlaJBxN5holmJL4%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb9faaa4dac0b-KLD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<html>
+  <head>
+    <title>429 Too Many Requests</title>
+  </head>
+  <body>
+    <center>
+      <h1>429 Too Many Requests</h1>
+    </center>
+    <hr/>
+    <center>nginx/1.18.0 (Ubuntu)</center>
+  </body>
+</html>
+Request method:	DELETE
+Request URI:	https://stellarburgers.nomoreparties.site/api/auth/user
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzOWQ4ZmJjYzE2MWRhMDAxYjc5ZWIwNyIsImlhdCI6MTY3MTI3MDMzMiwiZXhwIjoxNjcxMjcxNTMyfQ.XLwNot88VW_Ql3eV3QRcUiezeANSpwWr-qQThb0PCsM
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 202 Accepted
+Date: Sat, 17 Dec 2022 09:45:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"36-hDmZnQ3Ou/ynnqAeC6TYmyseuzY"
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1AqwCO5fmKmGcT%2Fr2cgsF3%2Br9bCxaD8TLDz4UCI1r9JJ%2BeVc8fuUJcJJSSuU9pGch5vzii48yjE8x9tHkhMb%2F9%2ByJmUImHH6aVRwsKMy2HrlhidnbfY7DcOgqLw%2BiwtEGW%2FiQcHLMlQmfdiLvbETmp2af7c%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 77aeb9fb283fabf9-KLD
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "success": true,
+    "message": "User successfully removed"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
